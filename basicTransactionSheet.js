@@ -1,10 +1,10 @@
 /** 
  * Basic Transaction Sheet
  * 
- * This script can be deployed in Google App Scripts;
- * 
+ * This script can be deployed in Google App Scripts!
  * Grabs emails with a specified Gmail label, parses the body of the email for transaction details, inserts details into a Google sheet.
- * Basic transaction sheet inserts a row with the following fields (by column): date of email, account number, vendor name, and transaction amount.
+ * Basic Transaction Sheet inserts a row with the following fields (by column): date of email, account number, vendor name, and transaction amount.
+ * 
  * NOTE: Currently, the vendor name regex needs to be improved and therefore, vendor field will be empty (for now).
 */
 
