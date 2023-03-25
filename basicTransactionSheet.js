@@ -38,7 +38,7 @@ function getTransactionEmails() {
               message_amount = "";
           
           // Find account number
-          let regExpAcct = /(\d{4})/i;
+          let regExpAcct = /\ account ending in: (\d{4})/i;
           let CO_message_account = regExpAcct.exec(emailBody);
 
           if (CO_message_account) {
