@@ -90,7 +90,7 @@ function getTransactionEmails() {
       unreadMessages.markRead();
 
     } else {
-      Logger.log("***Some of the Chase Bank email fields are empty");
+      Logger.log("***Some of the email fields are empty");
     }
   }
 }
