@@ -1,6 +1,6 @@
 tell application "Mail"
     set cutoffDate to (current date) - (30 * days)
-    set batchSize to 100 -- Process in smaller batches
+    set batchSize to 100 -- Process in smaller batches; Delete this line to remove limit
     set totalDeleted to 0
     
     repeat with eachAccount in accounts
